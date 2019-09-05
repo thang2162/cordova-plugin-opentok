@@ -1,5 +1,13 @@
 This plugin has been updated to work with Cordova 9.0.0!
 
+* iOS: If the download for OpenTok.framework fails:
+1. remove the plugin 'cordova plugin rm cordova-plugin-opentok'
+2. remove the ios platform from your project 'cordova platform rm ios'
+3. re-add the plugin 'cordova plugin add https://github.com/thang2162/cordova-plugin-opentok.git'
+4. manually download the file (https://s3.amazonaws.com/artifact.tokbox.com/rel/ios-sdk/OpenTok-iOS-2.15.3.tar.bz2)
+2. unpack and place OpenTok.framework in 'plugins/cordova-plugin-opentok/src/ios'
+6. re-add the ios platform  'cordova platform add ios'
+
 # Cordova Plugin for OpenTok iOS and Android
 ![OpenTok Labs](https://d26dzxoao6i3hh.cloudfront.net/items/0U1R0a0e2g1E361H0x3c/Image%202017-11-22%20at%2012.16.38%20PM.png?v=2507a2df)
 
