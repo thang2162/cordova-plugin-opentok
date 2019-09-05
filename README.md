@@ -1,3 +1,5 @@
+This plugin has been updated to work with Cordova 9.0.0!
+
 # Cordova Plugin for OpenTok iOS and Android
 ![OpenTok Labs](https://d26dzxoao6i3hh.cloudfront.net/items/0U1R0a0e2g1E361H0x3c/Image%202017-11-22%20at%2012.16.38%20PM.png?v=2507a2df)
 
@@ -13,7 +15,7 @@ Make sure You have Cordova 3.5.0 or greater installed. If you haven't, take a lo
 
 2. To install the OpenTok Cordova plugin, run the following command in the root of your project:
 ```
-cordova plugin add cordova-plugin-opentok
+cordova plugin add https://github.com/thang2162/cordova-plugin-opentok.git
 ```  
 3. To remove OpenTok Cordova plugin 3.2.0 and above, use the following command:
 ``` 
